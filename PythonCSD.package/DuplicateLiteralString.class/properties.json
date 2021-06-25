@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "PyRootNodeVisitor",
+	"super" : "PythonCSD",
 	"category" : "PythonCSD",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"filePath",
-		"resultNodes"
+		"declarations"
 	],
-	"name" : "PythonCSD",
+	"name" : "DuplicateLiteralString",
 	"type" : "normal"
 }

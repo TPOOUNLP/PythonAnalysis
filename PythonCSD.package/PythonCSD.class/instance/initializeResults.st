@@ -1,0 +1,3 @@
+initialization
+initializeResults
+	^ self subclassResponsibility

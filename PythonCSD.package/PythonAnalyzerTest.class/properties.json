@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "PyRootNodeVisitor",
-	"category" : "PythonCSD",
+	"super" : "TestCase",
+	"category" : "PythonCSD-Test",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"filePath",
-		"resultNodes"
+		"pythonAnalyzer"
 	],
-	"name" : "PythonCSD",
+	"name" : "PythonAnalyzerTest",
 	"type" : "normal"
 }

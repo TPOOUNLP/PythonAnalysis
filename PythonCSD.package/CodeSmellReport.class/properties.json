@@ -1,14 +1,15 @@
 {
 	"commentStamp" : "",
-	"super" : "PyRootNodeVisitor",
+	"super" : "Object",
 	"category" : "PythonCSD",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"name",
 		"filePath",
-		"resultNodes"
+		"nodes"
 	],
-	"name" : "PythonCSD",
+	"name" : "CodeSmellReport",
 	"type" : "normal"
 }

@@ -1,4 +1,3 @@
 initialization
-initialize
-	self filePath: ''.
+initializeResults
 	self resultNodes: OrderedCollection new
