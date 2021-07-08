@@ -4,6 +4,7 @@ parseProject: aProjectPath
 	workspace := aProjectPath asFileReference.
 	workspace exists
 		ifTrue: [ | files |
+			self projectPath: aProjectPath.
 			files := workspace allChildrenMatching: '*.py'.
 			files isNotEmpty
 				ifTrue: [ files

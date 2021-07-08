@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"astCollection",
-		"detectors"
+		"detectors",
+		"projectPath"
 	],
 	"name" : "PythonAnalyzer",
 	"type" : "normal"
