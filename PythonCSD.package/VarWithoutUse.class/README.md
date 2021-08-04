@@ -1,0 +1,1 @@
+Detector of variables without use

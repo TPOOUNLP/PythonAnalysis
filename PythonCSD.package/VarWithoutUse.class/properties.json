@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "initializeResults 7/15/2021 18:05",
+	"super" : "PythonCSD",
+	"category" : "PythonCSD",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"declarations"
+	],
+	"name" : "VarWithoutUse",
+	"type" : "normal"
+}
