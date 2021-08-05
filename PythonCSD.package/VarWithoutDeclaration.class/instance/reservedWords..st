@@ -1,0 +1,3 @@
+accessing
+reservedWords: aReservedWordsCollection
+	reservedWords := aReservedWordsCollection

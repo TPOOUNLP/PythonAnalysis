@@ -1,6 +1,7 @@
 parsing
 parseProject: aProjectPath
 	| workspace |
+	self projectPath: nil.
 	workspace := aProjectPath asFileReference.
 	workspace exists
 		ifTrue: [ | files |
@@ -10,7 +11,9 @@ parseProject: aProjectPath
 				ifTrue: [ files
 						do: [ :file | 
 							| ast |
-							ast := PythonParser2 parseFile: file.
+							[ ast := PythonParser2 parseFile: file.
 							ast filename: file fullName.
-							self addAst: ast ] ] ].
+							self addAst: ast ]
+								on: Error
+								do: [ ^ nil ] ] ] ].
 	^ workspace asString

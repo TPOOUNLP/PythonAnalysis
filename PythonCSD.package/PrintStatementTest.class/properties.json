@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PythonCSDTest",
+	"category" : "PythonCSD",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PrintStatementTest",
+	"type" : "normal"
+}

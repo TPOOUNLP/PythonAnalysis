@@ -1,3 +1,4 @@
 running
 setUp
-	pythonDetector := PrintStatement new
+	pythonAnalyzer := PythonAnalyzer new.
+	pythonAnalyzer parseProject: './PythonProjects/TestCases'.

@@ -10,5 +10,5 @@ result
 			self resultNodes add: (assoc key).
 		 ] ].
 
-	report nodes: self resultNodes.
+	report nodes: self resultNodes asSet.
 	^ report

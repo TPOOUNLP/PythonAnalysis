@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCase",
-	"category" : "PythonCSD-Test",
+	"super" : "PythonCSD",
+	"category" : "PythonCSD",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"pythonAnalyzer"
+		"declarations",
+		"reservedWords"
 	],
-	"name" : "PythonCSDTest",
+	"name" : "VarWithoutDeclaration",
 	"type" : "normal"
 }
